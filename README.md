@@ -65,7 +65,7 @@ What about plain prose letters?
 
 Here's the original page from Sen. Alexander's report, with its original neck-wrenching-orientation
 
-<img src="https://efdsearch.senate.gov/media/2012/0/000/602/000602485.gif" alt="000602485">
+![000602485.gif](images/000602485.gif)
 
 
 ### Comparison with Tesseract
