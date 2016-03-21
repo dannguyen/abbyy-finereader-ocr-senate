@@ -9,7 +9,7 @@ Extracting data from scanned images is one of the most common and most difficult
 
 My writeup here is meant as a quick overview of the effectiveness of using [ABBYY FineReader for Mac](http://www.abbyy.com/finereader/pro-for-mac/) in producing usable, perhaps even _delmited_ data from the scanned disclosure forms. Note that I'm not attempting to solve the problem of how to clean up the imperfect OCR results and insert them into a database, and how to automate it as a batch process. Just extracting text, even semi-accurately, from a single scanned form is a hard challenge on its own.
 
-__For a better overview of PDFs and structured data__, including the different kind of PDFs, and the many challenges and approaches to extracting structured data from those different PDFs, check out [Jacob Fenton's and Jeremy Singer-Vine's NICAR16 presentation on Parsing Prickly PDFs](https://github.com/jsfenfen/parsing-prickly-pdfs).
+__For a better overview of PDFs and structured data__, including the different kind of PDFs, and the many challenges and approaches to extracting structured data from those different PDFs, check out [Jacob Fenton's and Jeremy Singer-Vine's NICAR16 presentation on Parsing Prickly PDFs](https://github.com/jsfenfen/parsing-prickly-pdfs). If all you care about is the __actual personal finances of Congressmembers__, [OpenSecrets has you covered](https://www.opensecrets.org/pfds/).
 
 
 __My initial takeaway:__ FineReader is remarkably good for this task; in a later walkthrough I'll explain how to apply this in semi-automated fashion across all the forms (or any other set of scanned papers). 
