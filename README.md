@@ -123,7 +123,7 @@ And here's the result:
 ![000602483-excel.jpg](images/000602483-excel.jpg)
 
 
-Pretty good! You can download the [Excel file here](excel/000602483.xlsx). Or, if you want, here's the [PDF](pdf/000602483.pdf) that FineReader produces, which includes the OCRed text that you can at least highlight-copy-paste.
+Pretty good! You can download the [Excel file here](xls/000602483.xlsx). Or, if you want, here's the [PDF](pdf/000602483.pdf) that FineReader produces, which includes the OCRed text that you can at least highlight-copy-paste.
 
 ## Less simple table
 
