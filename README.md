@@ -155,9 +155,11 @@ That can't be that hard, right? But take a closer look...among other issues, we 
 
 Here's what the spreadsheet produced by FineReader looks like:
 
-![excel-000602470.jpg](images/excel-000602470.jpg)
+<img src="images/000602470-excel.jpg" alt="000602470-excel.jpg">
 
-Yep, that's basically unusable. You can download the [spreadsheet file here](xls/000602470.xlsx). And the [PDF with embeddable text here](pdf/000602470.pdf).
+Yep, that's basically unusable. Not so much because of the character accuracy (in fact, FineReader translates the X'ed boxes), but because the tabular structure isn't preserved in the way you'd hope it to be. 
+
+You can download the [spreadsheet file here](xls/000602470.xlsx). And the [PDF with embeddable text here](pdf/000602470.pdf).
 
 <a id="finereader-vs-tesseract"></a>
 
