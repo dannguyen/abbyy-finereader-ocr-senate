@@ -67,6 +67,7 @@ That is, convert a _picture_ of a table of data:
 
 Into something that can be read as delimited data values in a standard Excel spreadsheet:
 
+|                                |                   |         |         |
 |--------------------------------|-------------------|---------|---------|
 | City & County of San Francisco | San Francisco, CA | Pension | $56,804 |
 
