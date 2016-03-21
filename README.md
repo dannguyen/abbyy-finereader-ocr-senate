@@ -129,6 +129,9 @@ Pretty good! You can download the [Excel file here](xls/000602483.xlsx). Or, if 
 
 OK, now here's a much less simpler table:
 
+![000602474.gif](images/000602474.gif)
+
+
 
 Not only is there significantly more ink (and _smudged_ ink) to deal with, but there are vertical table headers and other complex tabular features to process.
 
