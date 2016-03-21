@@ -134,13 +134,13 @@ Not only is there significantly more ink (and _smudged_ ink) to deal with, but t
 
 Here's the result of FineReader's Excel output:
 
-![000602483-excel.jpg](images/000602483-excel.jpg)
+![000602474-excel.jpg](images/000602474-excel.jpg)
 
-Definitely not as clean as the previous example, but to be honest, _much_ better than what I had expected. You'd still have a long ways to go before you could put this into a database, but FineReader's output gives you a lot of options for heuristics to simplify the automation.
+Definitely not as clean as the previous example, but to be honest, _much_ better than what I had expected. I'm kind of shocked that it managed to make sense of the __vertically__-oriented headers. You'd still have a long ways to go before you could put this into a database, but FineReader's output gives you a lot of options for heuristics to simplify the translation process.
 
-And what if you just need to see, very quickly, if anyone at anytime has assets in "Acme Co."? At the very least, FineReader provides very greppable data.
+And what if you just need to very quickly see if anyone at anytime has ever owned assets in "Acme Co."? At the very least, FineReader provides very greppable text data.
 
-Here's the [Excel spreadsheet](xls/000602483.xlsx). And here's the [PDF](pdf/000602483.pdf) with embedded OCRed text.
+Here's the [Excel spreadsheet](xls/000602474.xlsx). And here's the [PDF](pdf/000602474.pdf) with embedded OCRed text.
 
 ## A bunch of checkboxes 
 
