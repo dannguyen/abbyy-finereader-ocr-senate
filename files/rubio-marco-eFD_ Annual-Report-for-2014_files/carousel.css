@@ -1,0 +1,26 @@
+/*SA */
+/* ******************************* */
+/* *** CAROUSEL FOR PAPER REPORTS *** */
+/* ******************************* */
+.carousel-caption {
+  bottom: auto;
+  top: 0;
+}
+.carousel-caption i.marginit-right {
+  margin-right: 5px;
+}
+.carousel-1pg {
+  margin: 110px 20px 20px;
+}
+.carousel .filingImage {
+  min-height: 815px;
+  min-width: 1065px;
+}
+.carousel-tools .well-blue {
+  /* RGBa with 0.6 opacity */
+  background: rgba(233, 238, 241, 0.6);
+  /* Fallback for web browsers that doesn't support RGBa */
+  background: #e9eef1 transparent;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#e9eef1', EndColorStr='#e9eef1');
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=50);
+}

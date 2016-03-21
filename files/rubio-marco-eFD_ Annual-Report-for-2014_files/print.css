@@ -1,0 +1,151 @@
+/*SA */
+body {
+  padding-top: 0;
+}
+.txtLogo {
+  font-size: 18pt;
+  line-height: 16pt;
+  color: #0a4264;
+  font-family: Palatino, serif;
+  padding-top: .25em;
+  padding-bottom: .5em;
+}
+.txtLogo small {
+  font-size: 10pt;
+}
+body,
+body *,
+input[type="text"],
+input[type="date"],
+input[type="radio"],
+input[type="checkbox"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+legend,
+label,
+* select,
+h1 small,
+h2 small,
+h3 small,
+.input-append input,
+.input-prepend input,
+.input-append select,
+.input-prepend select,
+.input-append .uneditable-input,
+.input-prepend .uneditable-input,
+.input-append .dropdown-menu,
+.input-prepend .dropdown-menu,
+.label,
+legend.control-label,
+.btn,
+.lead {
+  font-size: 12px;
+  line-height: 18px;
+}
+h1,
+h3,
+h4,
+h5 {
+  font-size: 1.2em;
+  line-height: 1.2em;
+  margin: .5em 0;
+}
+h1 {
+  font-size: 1.75em;
+}
+h3 [class^="icon-"],
+h4 [class^="icon-"],
+h4 [class*=" icon-"],
+h1 small [class^="icon-"],
+h1 small [class*=" icon-"],
+h3 small [class^="icon-"],
+h3 small [class*=" icon-"] {
+  margin: 0;
+}
+.page-header {
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+}
+/*Forms */
+legend {
+  font-weight: bold;
+  border: none;
+  padding-top: 22px;
+}
+legend.control-label {
+  padding-top: 0;
+}
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="tel"] {
+  height: 18px;
+}
+select {
+  height: auto;
+}
+.input-append .add-on,
+.input-prepend .add-on {
+  font-size: 12px;
+  line-height: 14px;
+  height: 14px;
+  border: none;
+  padding: 3px 0px;
+  background-color: transparent;
+}
+.btn {
+  padding: 2px 4px;
+}
+.form-highlightRow .control-group {
+  border-bottom: 0px solid #ccc;
+  padding: 2px 0;
+}
+section.submit,
+section.submit .control-group {
+  margin: 0;
+}
+/* tables */
+table.dataTable td,
+.table td {
+  padding: 3px 10px;
+  page-break-inside: avoid;
+}
+table.dataTable tr,
+.table tr {
+  page-break-inside: avoid;
+}
+/* end tables */
+.certificationBox,
+.certificationBox *,
+.certificationBox label {
+  font-size: 8px;
+}
+.certificationBox th,
+.certificationBox td {
+  line-height: 1.3em;
+  border: none;
+}
+.well,
+.well-small {
+  padding: 5px;
+  box-shadow: none;
+}
+.well-badge,
+.well-badge-report,
+.well-badge-part,
+.well-badge-lineitem {
+  border-style: dashed;
+  padding-top: 24px;
+}
+.help-inline,
+.noPrint {
+  display: none;
+}
+.printOnly,
+h3.printOnly {
+  display: block;
+}
+a[href]:after {
+  content: "";
+}
