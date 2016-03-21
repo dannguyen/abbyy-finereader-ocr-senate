@@ -27,9 +27,9 @@ Here's what an annual report on personal finances for 2014 looks like when it's 
 
 https://efdsearch.senate.gov/search/view/annual/de85e0d9-7eeb-49b6-83df-67affd2df645/
 
-For your convenience, I've [created a mirror here of the HTML that you can visit](files/rubio-marco-eFD_ Annual-Report-for-2014.html) without going through the Senate site.
+For your convenience, I've [mirrored the HTML for Sen. Rubio's financial report, which you can visit here](http://so.danwin.com/senate-ocr/2014-rubio-report.html) without going through the Senate site.
 
-<a href="files/rubio-marco-eFD_ Annual-Report-for-2014.html"><img src="images/rubio-table.png" alt="rubio-table.png"></a>
+<a href="http://so.danwin.com/senate-ocr/2014-rubio-report.html"><img src="images/rubio-table.png" alt="rubio-table.png"></a>
 
 As you can see, the HTML is straightforward to parse as machine-readable data. So let's dispel once and for all with this fiction that Senator Rubio doesn't know what he's doing. He knows __exactly__ what he's doing.
 
