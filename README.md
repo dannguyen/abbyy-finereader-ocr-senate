@@ -2,6 +2,8 @@
 
 Members of Congress are required to submit regular reports detailing their personal wealth. However, despite the [existence of electronic filing systems](http://www.rollcall.com/moneyline/senate-enters-electronic-age-with-personal-wealth-disclosures/), some legislators still submit via paper, which is then scanned and uploaded as images or PDFs into an online database ([Senate](https://efdsearch.senate.gov/search/home/) / [House](http://clerk.house.gov/public_disc/financial-search.aspx)).
 
+The Senate's electronic filing system came into effect a [couple years ago](http://www.rollcall.com/moneyline/senate-enters-electronic-age-with-personal-wealth-disclosures/); [Senator Bernie Sanders](https://www.opensecrets.org/pfds/summary.php?year=2014&cid=N00000528) is one example of a Senator who has moved from paper to the electronic filing system:
+
 ![Sen. Bernie Sanders annual disclosures, 2011 and 2014](images/sen-bernie-sanders-2014-forms.jpg)
 
 
