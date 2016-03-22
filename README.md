@@ -13,6 +13,8 @@ My writeup here is meant as a quick overview of the effectiveness of using [ABBY
 
 __For a better overview of PDFs and structured data__, including the different kind of PDFs, and the many challenges and approaches to extracting structured data from those different PDFs, check out [Jacob Fenton's and Jeremy Singer-Vine's NICAR16 presentation on Parsing Prickly PDFs](https://github.com/jsfenfen/parsing-prickly-pdfs). If all you care about is the __actual personal finances of Congressmembers__, [OpenSecrets has you covered](https://www.opensecrets.org/pfds/).
 
+Also, [Robert Gebeloff of the New York Times](https://github.com/gebelo) has [put together a list of the various other commercial products and their use-cases in this NICAR presentation (.docx)](https://github.com/gebelo/nicar2016/raw/master/pdf_wrangling16.docx)
+
 
 __My initial takeaway:__ FineReader is remarkably good for this task; in a later walkthrough I'll explain how to apply this in semi-automated fashion across all the forms (or any other set of scanned papers). 
 
