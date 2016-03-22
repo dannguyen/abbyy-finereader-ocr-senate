@@ -1,9 +1,9 @@
 # Using ABBYY FineReader to extract tabular data from U.S. Senators' personal finance reports
 
+Members of Congress are required to submit regular reports detailing their personal wealth. However, despite the [existence of electronic filing systems](http://www.rollcall.com/moneyline/senate-enters-electronic-age-with-personal-wealth-disclosures/), some legislators still submit via paper, which is then scanned and uploaded as images or PDFs into an online database ([Senate](https://efdsearch.senate.gov/search/home/) / [House](http://clerk.house.gov/public_disc/financial-search.aspx)).
+
 ![Sen. Bernie Sanders annual disclosures, 2011 and 2014](images/sen-bernie-sanders-2014-forms.jpg)
 
-
-Members of Congress are required to submit regular reports detailing their personal wealth. However, despite the [existence of electronic filing systems](http://www.rollcall.com/moneyline/senate-enters-electronic-age-with-personal-wealth-disclosures/), some legislators still submit via paper, which is then scanned and uploaded as images or PDFs into an online database ([Senate](https://efdsearch.senate.gov/search/home/) / [House](http://clerk.house.gov/public_disc/financial-search.aspx)).
 
 Extracting data from scanned images is one of the most common and most difficult data wrangling tasks, such that OpenSecrets (aka The Center for Responsive Politics) [pitched a civic hackathon challenge to build a solution for efficiently parsing Congressmembers' personal financial disclosures](https://github.com/pdfliberation/pdf-hackathon/blob/master/challenges/house-financial-disclosures.md#2nd-option---handwritten-reports).
 
@@ -251,18 +251,18 @@ O
 ### Tesseract OCR
 
 
-For this test, I used Tesseract [version 3.04.01](https://github.com/tesseract-ocr/tesseract/releases/tag/3.04.01), which was released in February 2016. One of the things Tesseract _won't_ do is process GIFs (which is, for whatever reason, the preferred image format of the Senate disclosure database), so you'll need something like ImageMagick. 
+For this test, I used Tesseract [version 3.04.01](https://github.com/tesseract-ocr/tesseract/releases/tag/3.04.01), which was released in February 2016. One of the things Tesseract _won't_ do is process GIFs (which is, for whatever reason, the preferred image format of the Senate disclosure database), so you'll need something like [ImageMagick](http://www.imagemagick.org/script/index.php). 
 
 And, Tesseract doesn't seem to do automatic orientation detection (or at least I don't know how to invoke it), so you'll have to reorient the image before passing it to Tesseract to OCR.
 
-The command-line sequence with ImageMagick looks like this:
+The command-line sequence with [ImageMagick](http://www.imagemagick.org/script/index.php) (which provides the `convert` command to do image transformations) looks like this:
 
 ~~~sh
 $ convert 000602485.gif -rotate 270 000602485.tiff
 $ tesseract 000602485.tiff 000602485-tesseract
 ~~~
 
-And produces a file named [000602485-tesseract.txt](txt/000602485-tesseract.txt). Because Tesseract by default produces a plaintext stream, there is no option to use `pdftotext -layout` on its output (you can, however, configure Tesseract to output HOCR data, which gives you the option of manually determining spatial regions for yourself, which projects [like Jacob Fenton's whatwordwhere aim to do](https://github.com/jsfenfen/whatwordwhere)).
+It produces a file named [000602485-tesseract.txt](txt/000602485-tesseract.txt). Because Tesseract, by default, produces a plaintext stream, there is no option to use `pdftotext -layout` on its output (you can, however, configure Tesseract to output HOCR data, which gives you the option of manually determining spatial regions for yourself, which projects [like Jacob Fenton's whatwordwhere aim to do](https://github.com/jsfenfen/whatwordwhere)).
 
 Here's the text output from Tesseract:
 
